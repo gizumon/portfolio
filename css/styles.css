@@ -14,9 +14,9 @@
 .table-block {
   margin-bottom: 20px; 
 }
-.table-block > h4 {
+/* .table-block > h4 {
   text-indent: -1rem;
-}
+} */
 .table-block table {
   margin: auto;
 }
@@ -33,11 +33,21 @@
 .table-block strong {
   color: var(--red-dark);
 }
-.content-block > h4 {
+/* .content-block > h4 {
   text-indent: -1rem;
+} */
+
+/*
+ * for smartphone
+ */
+ @media screen and (max-width: 480px) {
+  .xs-title {
+    font-size: 2.0rem!important;
+  }
+  .xs-table-content tr td {
+    font-size: 0.8rem!important;
+  }
 }
-
-
 
 /*!
 * Start Bootstrap - Agency v6.0.3 (https://startbootstrap.com/theme/agency)
