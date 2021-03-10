@@ -37,6 +37,20 @@
   text-indent: -1rem;
 } */
 
+.movie-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 698px;
+  height: 432px;
+  background-color: #D5D1C1;
+  margin-bottom: 2rem;
+}
+
+.movie-block img {
+  height: 100%;
+  /* width: 100%; */
+}
 /*
  * for smartphone
  */
@@ -10279,6 +10293,9 @@ header.masthead .masthead-heading {
 }
 .portfolio-modal .modal-content img {
   margin-bottom: 2rem;
+}
+.portfolio-modal .modal-content .movie-block img {
+  margin-bottom: 0px;
 }
 .portfolio-modal .close-modal {
   position: absolute;
