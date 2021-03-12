@@ -71,8 +71,8 @@
                         </span>
                         <h4 class="my-3">Advanced Technology</h4>
                         <p class="text-muted text-left text-block">
-                            As a project leader for 6 members team (over 30 people in the project) in the cutting-edge robotics industry, I've acquired professional experience throughout my career, over more than 3 years.
-                            Through the development of video calling web applications that work with robots in real time and workflow-type web applications that manage robot contents,
+                            As <strong>a project leader</strong> for 6 members team (over 30 people in the project) in the cutting-edge robotics industry, I've acquired professional experience throughout my career, over more than 3 years.
+                            Through the development of <strong>video calling web applications</strong> that work with robots in real time and <strong>workflow-type web applications</strong> that manage robot contents,
                             I've always been able to take on new challenges with new technologies.
                         </p>
                     </div>
@@ -180,6 +180,20 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/06_PepupAutomation.png" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">RPA Registering Tool</div>
+                                <div class="portfolio-caption-subheading text-muted">Auto-registering API using puppeteer(like selenium)</div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-toggle="modal" href="#portfolioModalX">
@@ -191,20 +205,6 @@
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Life Manager Application</div>
                                 <div class="portfolio-caption-subheading text-muted">Communal living management application linked to LINE</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModalX">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/XX_TBU.png" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">RPA Registering Tool</div>
-                                <div class="portfolio-caption-subheading text-muted">Auto-registering API using puppeteer(like selenium)</div>
                             </div>
                         </div>
                     </div>
@@ -801,15 +801,70 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>Date: January 2020</li>
-                                        <li>Client: Window</li>
-                                        <li>Category: Photography</li>
-                                    </ul>
+                                    <h2 class="text-uppercase xs-title">RPA Web Application</h2>
+                                    <p class="item-intro text-muted">Using puppeteer, Node.js, Docker</p>
+                                    <div class="content-block container">
+                                        <h4 class="">[ <a href="https://pepup-automation-gui.herokuapp.com/" target="_blank">Site Link</a> ]</h4>
+                                    </div>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06_PepupAutomation.png" alt="" />
+                                    <div class="movie-block">
+                                        <img class="" src="assets/img/portfolio/PepupAutomation.gif" alt="" />
+                                    </div>
+                                    <div class="content-block container">
+                                        <h4 class="">Service Overview</h4>
+                                        <p class="text-left text-block">
+                                            I've created an RPA web application that automates the process of registering on a daily basis.
+                                            The RPA tool was created as a WebApplication because it can be run from any environment without depending on the device, and it can also be used by other members.
+                                            To run the browser automation on a PaaS environment like Heroku, I use the Puppeteer library with built-in driver and Chromium.
+                                            Furthermore, I've extended the application to be containerized so that it can be deployed independently of the environment.
+                                            This application is triggered by an API request created in Koa.js (Node.js), which launches a headless browser and executes the daily registration process on the back-end.
+                                            The execution result is saved as a capture and displayed on the front side.
+                                        </p>
+                                        <!-- <p class="text-left text-block">
+                                            日次で登録する作業を自動化してくれるRPA web applicationを作成。
+                                            端末に依存せずどの環境からもRPAツールを実行でき、
+                                            更に他のメンバーにも展開することができることから、WebApplicationとしてRPAツールを作成。
+                                            Herokuの様なPaaS環境上でブラウザ自動化を実行するために、Chromiumとドライバ内蔵型のPuppeteerライブラリを用いた。
+                                            更に、コンテナ化することで環境に依存せずに、デプロイできる様に拡張。
+                                            Koa.js(Node.js)で作成したAPIのリクエストをトリガーに、ヘッドレスブラウザを起動し日次の登録作業を裏側で実行される。
+                                        </p> -->
+                                    </div>
+                                    <div class="table-block container">
+                                        <h4 class="">Skills</h4>
+                                        <table class="table table-striped text-left xs-table-content">
+                                            <tbody>
+                                                <tr>
+                                                    <td>Front-end</td>
+                                                    <td>:</td>
+                                                    <td><strong>HTML</strong>, <strong>CSS</strong>, <strong>Javascript</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Back-end / DB</td>
+                                                    <td>:</td>
+                                                    <td>Node.js (Koa.js), Typescript, Puppeteer</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Environments</td>
+                                                    <td>:</td>
+                                                    <td>Heroku</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Others</td>
+                                                    <td>:</td>
+                                                    <td><strong>Git</strong>, Docker</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <!-- <div class="content-block container">
+                                        <h4 class="">Scope of Responsibility</h4>
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03_responsibility.png" alt="" />
+                                        <ul class="text-left">
+                                            <li>Experience in negotiating with multinational team members</li>
+                                            <li>Environment where English is spoken on a daily basis</li>
+                                            <li>Took part in the design from Technology selection</li>
+                                        </ul>
+                                    </div> -->
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
                                         Close Project
