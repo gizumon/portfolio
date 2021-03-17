@@ -42,14 +42,17 @@
   align-items: center;
   justify-content: center;
   max-width: 698px;
-  height: 432px;
+  max-height: 432px;
   background-color: #D5D1C1;
+  /* padding: 1rem; */
   margin-bottom: 2rem;
 }
 
 .movie-block img {
-  height: 100%;
-  /* width: 100%; */
+  max-height: calc(100% - 2rem);
+  max-width: calc(100% - 2rem);
+  padding: 1rem;
+  /* margin-bottom: 0rem; */
 }
 /*
  * for smartphone
@@ -10291,12 +10294,12 @@ header.masthead .masthead-heading {
 .portfolio-modal .modal-content ul.list-inline {
   margin-bottom: 2rem;
 }
-.portfolio-modal .modal-content img {
+.portfolio-modal .modal-content .modal-body > img {
   margin-bottom: 2rem;
 }
-.portfolio-modal .modal-content .movie-block img {
+/* .portfolio-modal .modal-content .movie-block img {
   margin-bottom: 0px;
-}
+} */
 .portfolio-modal .close-modal {
   position: absolute;
   top: 1.5rem;
